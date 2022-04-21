@@ -12,7 +12,7 @@
     --primary-white: #fff;
 
 }
-
+ 
 
 
 /* LEFT SIDE BAR */
@@ -224,7 +224,7 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 2vh;
+    padding: 1vh 2vh;
     background: var(--primary-white);
     z-index: 1;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -293,7 +293,7 @@
 
 
 .main-content {
-    padding: 100px 95px;
+    padding: 120px 95px 20px 95px;
     width: 100%;
     min-height: 100vh;
     background: var(--primary-bg);
@@ -609,6 +609,7 @@ table tr:nth-child(even):hover {
     color: white;
     padding-left: 30px;
     margin-right: 40px;
+    font-size: 1.25rem;
 
 }
 
@@ -1124,6 +1125,6 @@ option:hover,
 }
 
 /* CV Essentials */
-.card-body > div{
+.card-body > div, #academicQualificationForm > div{
     margin-bottom: 1.75rem;
 }
