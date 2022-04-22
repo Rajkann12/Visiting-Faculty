@@ -218,8 +218,18 @@ function formStepNext() {
   $('.step-form .step-form-body .active-form').removeClass('active-form').addClass('d-none');
   $(`.step-form .step-form-body .step[data-step=${currentFormStep}]`).removeClass('d-none').addClass('active-form');
   console.log(currentFormStep);
+
+  if(currentFormStep === 4){
+    $('#next-step').addClass('d-none');
+    $('#finish-form').removeClass('d-none');
+  }
 }
 
 $("#next-step").on('click', function () {
 
   formStepNext() });
+
+$("#finish-form").on('click', function() {
+  $('.main').addClass('d-none');
+  $('.main2').removeClass('d-none');
+})

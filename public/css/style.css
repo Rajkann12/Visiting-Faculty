@@ -198,6 +198,7 @@
 
 }
 
+
 .main-maximize {
     position: absolute;
     max-width: 100%;
@@ -1127,4 +1128,49 @@ option:hover,
 /* CV Essentials */
 .card-body > div, #academicQualificationForm > div{
     margin-bottom: 1.75rem;
+}
+
+.form-preview{
+    margin: auto;
+    /* border: 2px solid white; */
+    border-radius: 3px;
+    padding: 1em 3em;
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+}
+
+.personal-info-preview > div, .bank-info-preview > div{
+    margin-bottom: 1rem;
+}
+
+.table-display {
+    border-collapse: collapse;
+    background-color: var(--primary-bg);
+    
+    margin-top: 1rem;
+}
+table tr:nth-child(even) {
+    background-color: var(--primary-bg);
+}
+.table-display tr:nth-child(even):hover {
+    background-color: var(--primary-bg);
+}
+
+.main-preview-content {
+    padding: 120px 50px 20px 50px;
+    width: 100%;
+    min-height: 100vh;
+    background: var(--primary-bg);
+    background-size: cover;
+}
+
+.main2 {
+    position: absolute;
+    max-width: 100%;
+    left: 0px;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #6b6d6d;
+
 }
